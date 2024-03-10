@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills">
       <PageHeaderContent
-        headerText="My Skills"
+        headerText="Skills"
         icon={<BsInfoCircleFill size={40} />}
       />
       <div className="skills__content-wrapper">
