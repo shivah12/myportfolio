@@ -1,5 +1,5 @@
 .portfolio {
-  background-color: #bebebe;
+  background-color: #14112b;
   background-attachment: scroll;
   height: 250vh;
   &__content {
@@ -24,8 +24,8 @@
         transition: all 0.5s ease;
 
         &.active {
-          background: #bdbdbd;
-          color: #000;
+          background: #a1a1d7a5;
+          color: #f6f1f1;
           font-weight: 600;
           border-radius: 30px;
         }
@@ -76,7 +76,7 @@
           transition: 0.5s ease;
           background-color: #8e8989;
           border-radius: 50px;
-          border: 1px dashed black;
+          border: 1px dashed rgb(4, 15, 38);
 
           div {
             position: absolute;
@@ -85,7 +85,7 @@
             transform: translate(-50%, -50%);
             text-align: right;
             h1{
-              color: #000000;
+              color: #ffffff;
               margin: 0px;
               font-size: 2.5rem;
               position: relative;
@@ -94,7 +94,7 @@
             }
 
             p {
-              color: #000000;
+              color: #ffffff;
               margin: 0px;
               font-size: 1rem;
               position: relative;
@@ -109,8 +109,8 @@
               padding: 10px 70px;
               font-size: 1.5rem;
               background: transparent;
-              color: #000;
-              border: 1.5px solid #000;
+              color: #07195a;
+              border: 1.5px solid #172068;
               border-radius: 4px;
               font-weight: 500;
             }
