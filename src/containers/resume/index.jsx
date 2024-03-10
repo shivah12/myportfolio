@@ -60,7 +60,7 @@ const Resume = () => {
           <h3 className="timeline__education__header-text">Education</h3>
           <VerticalTimeline
             layout={"1-column"}
-            lineColor="black"
+            lineColor="white"
           >
           {data.education.map((item, i) => (
               <VerticalTimelineElement
