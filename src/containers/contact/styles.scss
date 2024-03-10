@@ -1,0 +1,130 @@
+.contact {
+    background-color: #bebebe;
+    height: 100vh;
+   
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+        
+
+        &__header-text {
+            color: black;
+            display: inline-block;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1em;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border-bottom: 2px solid black;
+        }
+
+        &__header-text::before,
+        &__header-text::after {
+            position: absolute;
+            content: "";
+            width: 2px;
+            height: 5px;
+            background-color: black;
+            bottom: -1px;
+        }
+
+        &__header-text::before {
+            left: 0;
+        }
+
+        &__header-text::after {
+            right: 0;
+        }
+
+        &__form {
+            margin-top: 50px;
+
+            &__controlswrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                margin-bottom: 30px;
+
+                div {
+                    position: relative;
+                    .inputName,
+                    .inputEmail,
+                    .inputDescription {
+                        top: 50%;
+                        left: -80%;
+                        width: 250%;
+                        border: 2px solid black;
+                        padding: 16px 12px;
+                        transition: all 0.5s ease;
+                        position: relative;
+                        background-color: transparent;
+                        color: black;
+                        border-radius: 30px;
+                    }
+
+                    .nameLabel,
+                    .emailLabel,
+                    .descriptionLabel {
+                        font-weight: 500;
+                        position: absolute;
+                        top: 20%;
+                        left: -130%;
+                        transition: all 0.2s ease;
+                        color: black;
+                        font-size: 16px;
+                    }
+
+                    .inputName:focus,
+                    .inputEmail:focus,
+                    .inputDescription:focus {
+                        outline: none;
+                    }
+
+                    .inputName:focus + .nameLabel,
+                    .inputName:valid + .nameLabel,
+                    .inputEmail:focus + .emailLabel,
+                    .inputEmail:valid + .emailLabel,
+                    .inputDescription:focus + .descriptionLabel,
+                    .inputDescription:valid + .descriptionLabel {
+                        font-size: 18px;
+                        top: -25px;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+
+        button {
+            cursor: pointer;
+            padding: 10px 70px;
+            font-size: 2rem;
+            background: transparent;
+            color: black;
+            border: 1.5px solid black;
+            border-radius: 50px;
+            font-weight: 500;
+
+            &:hover {
+                color: #ffffff;
+                background: black;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact__content__form {
+        text-align: center;
+
+        &__controlswrapper {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
