@@ -1,8 +1,10 @@
 .portfolio {
   background-color: #bebebe;
+  background-attachment: scroll;
+  height: 250vh;
   &__content {
     padding: 20px;
-    width: 100%;
+    width: 95%;
 
     &__filter {
       display: inline-block;
@@ -72,7 +74,7 @@
           width: 100%;
           opacity: 0;
           transition: 0.5s ease;
-          background-color: #bdbdbd;
+          background-color: #8e8989;
           border-radius: 50px;
           border: 1px dashed black;
 
@@ -85,7 +87,7 @@
             h1{
               color: #000000;
               margin: 0px;
-              font-size: 4rem;
+              font-size: 2.5rem;
               position: relative;
               overflow: hidden;
               white-space: nowrap;
@@ -94,7 +96,7 @@
             p {
               color: #000000;
               margin: 0px;
-              font-size: 1.8rem;
+              font-size: 1rem;
               position: relative;
               overflow: hidden;
               white-space: wrap;
@@ -105,7 +107,7 @@
               cursor: pointer;
               margin-top: 16px;
               padding: 10px 70px;
-              font-size: 2rem;
+              font-size: 1.5rem;
               background: transparent;
               color: #000;
               border: 1.5px solid #000;
