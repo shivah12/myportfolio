@@ -12,7 +12,7 @@
     align-items: center; 
 
     h1 {
-      color: var(--white-theme-main-color);
+      color: whitesmoke;
       margin: 0;
       font-weight: 500;
       font-size: 5rem;
@@ -32,14 +32,14 @@
       padding: 10px 70px;
       font-size: 2rem;
       background: transparent;
-      color: var(--black-theme-main-color);
-      border: 1.5px solid black;
+      color: whitesmoke;
+      border: 1.5px solid rgb(255, 255, 255);
       border-radius: 4px;
       font-weight: 500;
 
       &:hover {
-        background: black;
-        color: #ffffff;
+        background: rgb(255, 255, 255);
+        color: #000000;
       }
     }
   }
