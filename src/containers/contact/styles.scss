@@ -1,5 +1,5 @@
 .contact {
-    background-color: #bebebe;
+    background-color: #14112b;
     height: 100vh;
    
 
@@ -13,7 +13,7 @@
         
 
         &__header-text {
-            color: black;
+            color: rgb(255, 255, 255);
             display: inline-block;
             font-size: 22px;
             font-weight: 600;
@@ -22,7 +22,7 @@
             position: relative;
             text-transform: uppercase;
             padding: 5px 10px;
-            border-bottom: 2px solid black;
+            border-bottom: 2px solid rgb(255, 255, 255);
         }
 
         &__header-text::before,
@@ -31,7 +31,7 @@
             content: "";
             width: 2px;
             height: 5px;
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             bottom: -1px;
         }
 
@@ -60,12 +60,12 @@
                         top: 50%;
                         left: -80%;
                         width: 250%;
-                        border: 2px solid black;
+                        border: 2px solid rgb(255, 255, 255);
                         padding: 16px 12px;
                         transition: all 0.5s ease;
                         position: relative;
                         background-color: transparent;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         border-radius: 30px;
                     }
 
@@ -77,7 +77,7 @@
                         top: 20%;
                         left: -130%;
                         transition: all 0.2s ease;
-                        color: black;
+                        color: rgb(227, 223, 223);
                         font-size: 16px;
                     }
 
@@ -104,16 +104,16 @@
         button {
             cursor: pointer;
             padding: 10px 70px;
-            font-size: 2rem;
+            font-size: 1.2rem;
             background: transparent;
-            color: black;
-            border: 1.5px solid black;
+            color: rgb(255, 255, 255);
+            border: 1.5px solid rgb(255, 255, 255);
             border-radius: 50px;
             font-weight: 500;
 
             &:hover {
                 color: #ffffff;
-                background: black;
+                background: rgb(6, 11, 45);
             }
         }
     }
