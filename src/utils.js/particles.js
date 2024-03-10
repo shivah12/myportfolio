@@ -1,7 +1,7 @@
 export default {
     background: {
       color: {
-        value: "#b61924",
+        value: "#14112b",
       },
     },
     fpsLimit: 120,
