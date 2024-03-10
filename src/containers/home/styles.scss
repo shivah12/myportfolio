@@ -1,20 +1,21 @@
 .home {
   position: relative;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-content: center;
   flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
 
   &__text-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
 
     h1 {
       color: var(--white-theme-main-color);
-      margin: 0px;
+      margin: 0;
       font-weight: 500;
-      font-size: 8rem;
+      font-size: 5rem;
       line-height: 10rem;
       position: relative;
       overflow: hidden;
@@ -24,8 +25,6 @@
   }
 
   &__contact-me {
-    display: flex;
-    justify-content: center;
     margin-top: 15px;
 
     button {
@@ -47,10 +46,10 @@
 
   &__social-icons {
     position: absolute;
-    left: 0;
-    bottom: 20px; 
+    bottom: 20px;
     display: flex;
     gap: 10px;
+    justify-content: center; 
   }
 
   &__social-icons a {
@@ -60,14 +59,14 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #000; 
+    background-color: #000;
     color: white;
     transition: background-color 0.3s ease;
   }
 
   &__social-icons a:hover {
-    background-color: black; 
-    color: #ffffff; 
+    background-color: black;
+    color: #ffffff;
   }
 }
 
