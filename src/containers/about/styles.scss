@@ -1,7 +1,7 @@
 .about {
   background-color: #bebebe;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 
   &__content {
     display: flex;
@@ -20,7 +20,7 @@
     &__personalWrapper {
       h3 {
         margin-bottom: 10px;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-weight: 700;
         color: var(--black-theme-main-color);
         background-color: #bebebe;
@@ -31,9 +31,9 @@
       }
 
       p {
-        background-color: #bebebe; /* Added background color */
+        background-color: #bebebe; 
         color: var(--black-theme-sub-text-color);
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         line-height: 1.65;
         padding-bottom: 20px;
         border-bottom: 1px dashed var(--black-theme-main-color);
