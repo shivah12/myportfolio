@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #bdbdbd;
+  background-color: #14112b;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 .navbar__container__logo {
-  color: #000000;
+  color: #fdfdfd;
   cursor: pointer;
 }
 
@@ -46,11 +46,11 @@
 
 .navbar__container__menu__item:hover::after {
   width: 100%;
-  background: #000000;
+  background: #ffffff;
 }
 
 .navbar__container__menu__item__links {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   padding: 0.5rem;
 }
@@ -73,13 +73,13 @@
   }
 
   .navbar__container__menu.active {
-    background: #181818;
+    background: #ffffff;
     left: 0px;
     opacity: 1;
   }
 
   .navbar__container__menu__item {
-    border-bottom: 1px solid #282828;
+    border-bottom: 1px solid #d9d9d9;
     margin: 0px;
     padding: 20px 0px;
   }
@@ -87,7 +87,7 @@
   .nav-icon {
     display: block;
     cursor: pointer;
-    color: #000000;
+    color: #ededed;
     padding-right: 20px;
   }
 }
