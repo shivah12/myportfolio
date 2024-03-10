@@ -23,7 +23,7 @@ const portfolioData = [
     name: "Yosher",
     image: ImageOne,
     link: "https://yosher.vercel.app/",
-    description: 'A website created using ReactJs acting as a search engine with active API calls withe the logo being designed by myself in Figma',
+    description: 'A website created using ReactJs acting as a search engine with active API calls with the logo being designed by myself using Figma',
   },
   {
     id: 2,
