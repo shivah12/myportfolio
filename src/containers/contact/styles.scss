@@ -122,6 +122,7 @@
 @media only screen and (max-width: 768px) {
     .contact__content__form {
         text-align: center;
+        width: 90%;
 
         &__controlswrapper {
             grid-template-columns: repeat(1, 1fr);
