@@ -1,6 +1,8 @@
-import React from "react";
+
+import React, { useState } from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { BsInfoCircleFill, BsGithub } from "react-icons/bs"; 
+import "./styles.scss"; 
 import ImageOne from "../../images/image1.png";
 import ImageTwo from "../../images/image2.png";
 import ImageThree from "../../images/image3.png";
@@ -14,93 +16,111 @@ import ImageTen from "../../images/image10.png";
 import ImageEleven from "../../images/image11.png";
 import ImageTwelve from "../../images/image12.png";
 
-import "./styles.scss";
-import { useState } from "react";
-
 const portfolioData = [
   {
     id: 2,
     name: "Yosher",
     image: ImageOne,
     link: "https://yosher.vercel.app/",
-    description: 'A website created using ReactJs acting as a search engine with active API calls with the logo being designed by myself using Figma',
+    description:
+      "A website created using ReactJs acting as a search engine with active API calls with the logo being designed by myself using Figma",
+    github: "https://github.com/shivah12/Yosher",
   },
   {
     id: 2,
     name: "Tutoria",
     link: "https://tutoria-delta.vercel.app/",
     image: ImageTwo,
-    description:"An E-learning website created using ReactJs, TailwindCSS and AOS library with being responsive on all screens.",
+    description:
+      "An E-learning website created using ReactJs, TailwindCSS and AOS library with being responsive on all screens.",
+    github:"https://github.com/shivah12/Tutoria",
   },
   {
     id: 2,
     name: "Compani",
     image: ImageThree,
     link: "https://compani-theta.vercel.app/",
-    description:"A company-based created using ReactJs, TailwindCSS, AOS library and Vite with being responsive on all screens.",
+    description:
+      "A company-based created using ReactJs, TailwindCSS, AOS library and Vite with being responsive on all screens.",
+      github:"https://github.com/shivah12/Compani",
   },
   {
     id: 2,
     name: "Spacer",
     image: ImageFour,
     link: "https://spacer-five.vercel.app/",
-    description:"A Space based website created using ReactJs, TailwindCSS and AOS librarywith being responsive on all screens.",
+    description:
+      "A Space based website created using ReactJs, TailwindCSS and AOS librarywith being responsive on all screens.",
+    github:"https://github.com/shivah12/Spacer",
   },
   {
     id: 2,
     name: "Shinzo",
     image: ImageFive,
     link: "https://shinzo-three.vercel.app/",
-    description:"A Study Space website created using ReactJs using Framer motion library with being responsive on larger screens.",
+    description:
+      "A Study Space website created using ReactJs using Framer motion library with being responsive on larger screens.",
+    github:"https://github.com/shivah12/Shinzo",
   },
   {
     id: 2,
     name: "Product Page",
     image: ImageTwelve,
     link: "https://product-page-six-nu.vercel.app/",
-    description:"A product landing page created using ReactJs with being responsive on all screens.",
+    description:
+      "A product landing page created using ReactJs with being responsive on all screens.",
+    github:"https://github.com/shivah12/Product-Page",
   },
   {
     id: 2,
     name: "DaanFlow",
     image: ImageSeven,
     link: "https://shivah12.github.io/DaanFlow/main.html",
-    description:"A donation based website created using HTML, CSS, Javascript and Bootstrap5 with multiple pages to switch. ",
+    description:
+      "A donation based website created using HTML, CSS, Javascript and Bootstrap5 with multiple pages to switch. ",
+    github:"https://github.com/shivah12/DaanFlow",
   },
+
   {
     id: 2,
     name: "FitnessFam",
     image: ImageSix,
     link: "https://shivah12.github.io/FitnessFam/",
-    description:"A fitness academy based website created using HTML, CSS, Javascript, Bootstrap5 and AOS library. ",
+    description:
+      "A fitness academy based website created using HTML, CSS, Javascript, Bootstrap5 and AOS library. ",
+    github:"https://github.com/shivah12/FitnessFam",
   },
   {
     id: 3,
     name: "Solaris",
     image: ImageEight,
     link: "https://www.behance.net/gallery/187656337/Solar-system(App-Design)",
-    description:"An app based design created using Figma, for a solar system enthusiast.  ",
+    description:
+      "An app based design created using Figma, for a solar system enthusiast.  ",
   },
   {
     id: 3,
     name: "PlantSpace",
     image: ImageNine,
     link: "https://www.behance.net/gallery/189451451/Plant-Website",
-    description:"An website based design created using Figma, for a Plants-business website.  ",
+    description:
+      "An website based design created using Figma, for a Plants-business website.  ",
   },
   {
     id: 3,
     name: "Car ",
     image: ImageTen,
     link: "https://www.behance.net/gallery/187397987/Car-WebDesign-Project",
-    description:"An website based design created using Figma, for a Car branding.  ",
+    description:
+      "An website based design created using Figma, for a Car branding.  ",
   },
   {
     id: 3,
     name: "TravelConnect ",
     image: ImageEleven,
     link: "https://www.behance.net/gallery/190049231/Travel-Landing-Page",
-    description:"An website based design created using Figma, for a Travel website.  ",
+    description:
+      "An website based design created using Figma, for a Travel website.  ",
   },
 ];
 
@@ -123,13 +143,15 @@ const Portfolio = () => {
   const [filteredValue, setFilteredValue] = useState(1);
   const [hoveredValue, setHoveredValue] = useState(null);
 
-  function handleFilter(currentId) {
+ 
+  const handleFilter = (currentId) => {
     setFilteredValue(currentId);
-  }
+  };
 
-  function handleHover(index) {
+  
+  const handleHover = (index) => {
     setHoveredValue(index);
-  }
+  };
 
   return (
     <section id="portfolio" className="portfolio">
@@ -167,8 +189,9 @@ const Portfolio = () => {
                 <div className="overlay">
                   {index === hoveredValue && (
                     <div>
+                      <BsGithub size={30} className="github-icon" />
                       <h1>{item.name}</h1>
-                      <p>{item.description}</p> 
+                      <p>{item.description}</p>
                       <button onClick={() => window.open(item.link, "_blank")}>
                         Visit
                       </button>
