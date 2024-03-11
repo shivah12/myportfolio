@@ -189,7 +189,7 @@ const Portfolio = () => {
                 <div className="overlay">
                   {index === hoveredValue && (
                     <div>
-                      <BsGithub size={30} className="github-icon" />
+                      <BsGithub size={30} className="github-icon" onClick={() => window.open(item.github, "_blank")}  />
                       <h1>{item.name}</h1>
                       <p>{item.description}</p>
                       <button onClick={() => window.open(item.link, "_blank")}>
