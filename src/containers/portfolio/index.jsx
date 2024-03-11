@@ -64,11 +64,11 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: "Product Page",
+    name: "Watch",
     image: ImageTwelve,
     link: "https://product-page-six-nu.vercel.app/",
     description:
-      "A product landing page created using ReactJs with being responsive on all screens.",
+      "A product landing page for a smart watch created using ReactJs with being responsive on all screens.",
     github:"https://github.com/shivah12/Product-Page",
   },
   {
@@ -116,7 +116,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "TravelConnect ",
+    name: "TravelSite ",
     image: ImageEleven,
     link: "https://www.behance.net/gallery/190049231/Travel-Landing-Page",
     description:
