@@ -120,12 +120,67 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contact{
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: #14112b;
+        overflow-y: hidden;
+        background-attachment: fixed;
+        
+    }
     .contact__content__form {
         text-align: center;
-        width: 90%;
+        width: 75%;
+        div {
+            position: relative;
+            .inputName,
+            .inputEmail,
+            .inputDescription {
+                top: 50%;
+                left: -70%;
+                width: 250%;
+                border: 2px solid rgb(255, 255, 255);
+                padding: 16px 12px;
+                transition: all 0.5s ease;
+                position: relative;
+                background-color: transparent;
+                color: rgb(255, 255, 255);
+                border-radius: 30px;
+            }
+
+            .nameLabel,
+            .emailLabel,
+            .descriptionLabel {
+                font-weight: 500;
+                position: absolute;
+                top: 20%;
+                left: -60%;
+                transition: all 0.2s ease;
+                color: rgb(227, 223, 223);
+                font-size: 16px;
+            }
+
+            .inputName:focus,
+            .inputEmail:focus,
+            .inputDescription:focus {
+                outline: none;
+            }
+
+            .inputName:focus + .nameLabel,
+            .inputName:valid + .nameLabel,
+            .inputEmail:focus + .emailLabel,
+            .inputEmail:valid + .emailLabel,
+            .inputDescription:focus + .descriptionLabel,
+            .inputDescription:valid + .descriptionLabel {
+                font-size: 18px;
+                top: -25px;
+                left: 0px;
+            }
+        }
 
         &__controlswrapper {
             grid-template-columns: repeat(1, 1fr);
         }
+        
     }
 }
