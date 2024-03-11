@@ -1,6 +1,7 @@
 .about {
   background-color: #14112b;
-  height: 120vh;
+  height: 150vh;
+  overflow-x: hidden;
 
   &__content {
     display: flex;
@@ -114,6 +115,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .about{
+    overflow-x: hidden;
+    height: auto !important;
+  }
   .about__content {
     flex-direction: column;
 
