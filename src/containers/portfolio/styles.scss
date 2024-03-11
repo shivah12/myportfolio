@@ -1,7 +1,9 @@
+
 .portfolio {
   background-color: #14112b;
   background-attachment: scroll;
   height: auto !important;
+
   &__content {
     padding: 20px;
     width: 91%;
@@ -39,6 +41,7 @@
       gap: 2rem;
       margin-top: 10px;
       border-radius: 30px; 
+
       &__item {
         height: 366px;
         cursor: pointer;
@@ -84,7 +87,8 @@
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: right;
-            h1{
+
+            h1 {
               color: #ffffff;
               margin: 0px;
               font-size: 2.5rem;
@@ -100,9 +104,8 @@
               position: relative;
               overflow: hidden;
               white-space: wrap;
-              
             }
-
+            
             button {
               cursor: pointer;
               margin-top: 16px;
@@ -115,6 +118,13 @@
               font-weight: 500;
             }
           }
+        }
+
+        .github-icon {
+          top: 5%;
+          left: -25%; 
+          position: absolute; 
+          color: white; 
         }
       }
     }
@@ -132,6 +142,65 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #8e8989;
+    border-radius: 50px;
+    border: 1px dashed rgb(4, 15, 38);
+
+    div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: right;
+
+      h1 {
+        color: #ffffff;
+        margin: 0px;
+        font-size: 2.5rem;
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      p {
+        color: #ffffff;
+        margin: 0px;
+        font-size: 1rem;
+        position: relative;
+        overflow: hidden;
+        white-space: wrap;
+      }
+      
+      button {
+        cursor: pointer;
+        margin-top: 16px;
+        padding: 10px 70px;
+        font-size: 1.5rem;
+        background: transparent;
+        color: #07195a;
+        border: 1.5px solid #172068;
+        border-radius: 4px;
+        font-weight: 500;
+      }
+    }
+  }
+  .github-icon {
+    top: 5%;
+    left: -25%; 
+    position: absolute; 
+    color: white; 
+  }
+
   .portfolio__content__filter > li {
     font-size: 14px;
   }
@@ -148,4 +217,3 @@
     }
   }
 }
-
