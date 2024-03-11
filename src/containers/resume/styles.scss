@@ -1,6 +1,7 @@
 .resume{
-    height: 120vh;
+    height: auto !important;
     background-color: #14112b;
+    overflow-x: hidden;
 }
 
 .timeline{
@@ -9,8 +10,8 @@
     padding: 20px;
 
     &__experience, &__education{
-        width: 50%;
-        gap: 2rem;
+        width: 48%;
+        gap: 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -90,6 +91,10 @@
 }
 
 @media only screen and (max-width : 768px){
+    .resume{
+        height:  auto !important;
+        overflow-x: hidden;
+    }
     .timeline{
         flex-direction: column;
         &__experience, &__education{
