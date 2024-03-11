@@ -1,10 +1,10 @@
 .portfolio {
   background-color: #14112b;
   background-attachment: scroll;
-  height: 250vh;
+  height: auto !important;
   &__content {
     padding: 20px;
-    width: 95%;
+    width: 90%;
 
     &__filter {
       display: inline-block;
