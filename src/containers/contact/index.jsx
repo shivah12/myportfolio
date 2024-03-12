@@ -2,8 +2,8 @@ import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
+import face from "../../images/face.jpeg";
 import "./styles.scss";
-
 
 const Contact = () => {
   return (
@@ -37,7 +37,13 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-           
+          <div className="contact__content__image-container">
+            <img
+              src={face}
+              alt="me"
+              className="contact__content__image"
+            />
+          </div>
           <div className="contact__content__form">
             <div className="contact__content__form__controlswrapper">
               <div>
