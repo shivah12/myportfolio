@@ -3,17 +3,14 @@
 .contact {
     font-family: 'Montserrat';
     background-color: #14112b;
-    height: 100vh;
+    height: 120vh;
    
-
     &__content {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 20px;
-
-        
 
         &__header-text {
             color: rgb(255, 255, 255);
@@ -46,6 +43,31 @@
             right: 0;
         }
 
+        &__image-container {
+            position: absolute;
+            top: 60%;
+            left: -150%;
+            transform: translate(-50%, -50%);
+            transition: transform 0.5s ease;
+        }
+
+        &__image {
+            border-radius: 70px;
+            height: 425px;
+            width: auto;
+            transition: transform 0.5s ease;
+        }
+
+        &:hover .contact__content__image-container {
+            transform: translate(-50%, -50%) scale(1.1);
+            
+        }
+
+        &:hover .contact__content__image {
+            transform: scale(1.1);
+            
+        }
+
         &__form {
             margin-top: 50px;
 
@@ -61,7 +83,7 @@
                     .inputEmail,
                     .inputDescription {
                         top: 50%;
-                        left: -80%;
+                        left: 80%;
                         width: 250%;
                         border: 2px solid rgb(255, 255, 255);
                         padding: 16px 12px;
@@ -78,7 +100,7 @@
                         font-weight: 500;
                         position: absolute;
                         top: 20%;
-                        left: -130%;
+                        left: 22%;
                         transition: all 0.2s ease;
                         color: rgb(227, 223, 223);
                         font-size: 16px;
@@ -105,10 +127,14 @@
         }
 
         button {
+            position: absolute;
+            top: 125%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             cursor: pointer;
             padding: 10px 70px;
             font-size: 1.2rem;
-            background: transparent;
+            background: linear-gradient(to right, #1d1849, #6b6b6b49, #201952);
             color: rgb(255, 255, 255);
             border: 1.5px solid rgb(255, 255, 255);
             border-radius: 50px;
@@ -116,7 +142,7 @@
 
             &:hover {
                 color: #ffffff;
-                background: rgb(6, 11, 45);
+                background: linear-gradient(to right, #3a306e, #09094f60, #150b77);
             }
         }
     }
@@ -129,8 +155,8 @@
         background-color: #14112b;
         overflow-y: hidden;
         background-attachment: fixed;
-        
     }
+
     .contact__content__form {
         text-align: center;
         width: 75%;
@@ -184,6 +210,5 @@
         &__controlswrapper {
             grid-template-columns: repeat(1, 1fr);
         }
-        
     }
 }
