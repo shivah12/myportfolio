@@ -33,7 +33,7 @@ const Resume = () => {
                   color : 'white',
                   border : '1.5px solid black'
                 }}
-                date="2020 - Present"
+                date="2022 - Present"
                 icon={<MdWork/>}
                 iconStyle={{
                   background : '#181818',
@@ -71,7 +71,7 @@ const Resume = () => {
                   color : 'white',
                   border : '1.5px solid black'
                 }}
-                date="2022 - Present"
+                date="2020 - Present"
                 icon={<MdWork/>}
                 iconStyle={{
                   background : '#181818',
