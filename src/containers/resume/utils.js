@@ -22,7 +22,7 @@ export const data = {
         subTitle: "Veer Surendra Sai University of technology, Burla",
         description:
           "Bachelor of technology in Information Technology",
-        duration:"2022 - Present"
+        duration:"2022 - 2026"
       },
     ],
   };
