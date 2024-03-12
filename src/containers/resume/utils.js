@@ -5,6 +5,7 @@ export const data = {
         subTitle: "VSSUT Robotics",
         description:
           " Web Development, Python",
+        duration: "2022 - Present"
       },
     ],
     education: [
@@ -14,12 +15,14 @@ export const data = {
         subTitle: "DAV Public School Chandrasekharpur, BBSR",
         description:
           "12th Grade in Science",
+        duration:"2020 - 2022"
       },
       {
         title: "B.Tech",
         subTitle: "Veer Surendra Sai University of technology, Burla",
         description:
           "Bachelor of technology in Information Technology",
+        duration:"2022 - 2026"
       },
     ],
   };
