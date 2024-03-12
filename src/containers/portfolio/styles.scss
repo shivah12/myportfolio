@@ -77,9 +77,9 @@
           width: 100%;
           opacity: 0;
           transition: 0.5s ease;
-          background-color: #8e8989;
+          background-color: #a1a1d7e1;
           border-radius: 50px;
-          border: 1px dashed rgb(4, 15, 38);
+          border: 1px dashed rgba(4, 15, 38, 0.384);
 
           div {
             position: absolute;
@@ -122,7 +122,7 @@
 
         .github-icon {
           top: 5%;
-          left: -25%; 
+          left: -18%; 
           position: absolute; 
           color: white; 
         }
@@ -132,6 +132,7 @@
 }
 
 @media only screen and (max-width: 480px) {
+  
   .portfolio__content__filter > li {
     font-size: 11px;
   }
