@@ -77,7 +77,7 @@
           width: 100%;
           opacity: 0;
           transition: 0.5s ease;
-          background-color: #a1a1d7e1;
+          background: linear-gradient(to right, #564a8f, #24246a, #0f065a);
           border-radius: 50px;
           border: 1px dashed rgba(4, 15, 38, 0.384);
 
@@ -111,9 +111,9 @@
               margin-top: 16px;
               padding: 10px 70px;
               font-size: 1.5rem;
-              background: transparent;
-              color: #07195a;
-              border: 1.5px solid #172068;
+              background: rgb(82, 82, 138);
+              color: #fafcff;
+              border: 1.5px solid #ffffff;
               border-radius: 4px;
               font-weight: 500;
             }
