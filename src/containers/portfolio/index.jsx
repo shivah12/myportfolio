@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill, BsGithub } from "react-icons/bs"; 
@@ -143,12 +142,10 @@ const Portfolio = () => {
   const [filteredValue, setFilteredValue] = useState(1);
   const [hoveredValue, setHoveredValue] = useState(null);
 
- 
   const handleFilter = (currentId) => {
     setFilteredValue(currentId);
   };
 
-  
   const handleHover = (index) => {
     setHoveredValue(index);
   };
@@ -173,7 +170,10 @@ const Portfolio = () => {
         </ul>
         <div className="portfolio__content__cards">
           {portfolioData
-            .filter((item) => filteredValue === 1 || item.id === filteredValue)
+            .filter(
+              (item) =>
+                filteredValue === 1 || item.id === filteredValue
+            )
             .map((item, index) => (
               <div
                 className="portfolio__content__cards__item"
@@ -182,14 +182,26 @@ const Portfolio = () => {
                 onMouseLeave={() => handleHover(null)}
               >
                 <div className="portfolio__content__cards__item__img-wrapper">
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img alt="dummy data" src={item.image} />
                   </a>
                 </div>
                 <div className="overlay">
                   {index === hoveredValue && (
                     <div>
-                      <BsGithub size={30} className="github-icon" onClick={() => window.open(item.github, "_blank")}  />
+                      {item.github && ( // Check if github link exists
+                        <BsGithub
+                          size={30}
+                          className="github-icon"
+                          onClick={() =>
+                            window.open(item.github, "_blank")
+                          }
+                        />
+                      )}
                       <h1>{item.name}</h1>
                       <p>{item.description}</p>
                       <button onClick={() => window.open(item.link, "_blank")}>
