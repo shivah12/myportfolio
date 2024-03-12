@@ -71,7 +71,23 @@ const Resume = () => {
                   color : 'white',
                   border : '1.5px solid black'
                 }}
-                date="2020 - Present"
+                date="2020 - 2022"
+                icon={<MdWork/>}
+                iconStyle={{
+                  background : '#181818',
+                  color : 'white',
+
+                }}
+                {data.education.map((item, i) => (
+              <VerticalTimelineElement
+                key={i}
+                className="timeline__experience__vertical-timeline-element"
+                contentStyle={{
+                  background: 'none',
+                  color : 'white',
+                  border : '1.5px solid black'
+                }}
+                date="2022 - Present"
                 icon={<MdWork/>}
                 iconStyle={{
                   background : '#181818',
