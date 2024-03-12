@@ -27,8 +27,12 @@ export const skillsData = [
           percentage: "90",
         },
         {
+          skillName: "Framer",
+          percentage: "70",
+        },
+        {
           skillName: "MongoDB",
-          percentage: "60",
+          percentage: "70",
         },
       ],
     },
