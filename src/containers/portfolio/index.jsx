@@ -14,6 +14,7 @@ import ImageNine from "../../images/image9.png";
 import ImageTen from "../../images/image10.png";
 import ImageEleven from "../../images/image11.png";
 import ImageTwelve from "../../images/image12.png";
+import ImageThirteen from "../../images/image13.png"
 
 const portfolioData = [
   {
@@ -60,6 +61,15 @@ const portfolioData = [
     description:
       "A Study Space website created using ReactJs using Framer motion library with being responsive on larger screens.",
     github:"https://github.com/shivah12/Shinzo",
+  },
+  {
+    id: 2,
+    name: "PlantSpace",
+    image: ImageThirteen,
+    link: "https://plant-space.vercel.app/",
+    description:
+      "A Plant business website created using ReactJs with being responsive on all screens.",
+    github:"https://github.com/shivah12/PlantSpace",
   },
   {
     id: 2,
