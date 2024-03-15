@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill, BsGithub } from "react-icons/bs"; 
 import "./styles.scss"; 
@@ -15,6 +15,8 @@ import ImageTen from "../../images/image10.png";
 import ImageEleven from "../../images/image11.png";
 import ImageTwelve from "../../images/image12.png";
 import ImageThirteen from "../../images/image13.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const portfolioData = [
   {
@@ -152,6 +154,12 @@ const Portfolio = () => {
   const [filteredValue, setFilteredValue] = useState(1);
   const [hoveredValue, setHoveredValue] = useState(null);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 3000 
+    });
+  }, []);
+
   const handleFilter = (currentId) => {
     setFilteredValue(currentId);
   };
@@ -190,6 +198,8 @@ const Portfolio = () => {
                 key={`cardItem${item.name.trim()}`}
                 onMouseEnter={() => handleHover(index)}
                 onMouseLeave={() => handleHover(null)}
+                data-aos="fade-up" // Define AOS animation here
+                data-aos-duration="1000" // Define duration here (in milliseconds)
               >
                 <div className="portfolio__content__cards__item__img-wrapper">
                   <a
