@@ -4,6 +4,7 @@ import { Animate } from "react-simple-animate";
 import GitHubIcon from "./Github.svg";
 import LinkedInIcon from "./linkedin.svg";
 import BehanceIcon from "./behance.svg";
+import TwitterIcon from "./twitter.svg";
 import "./styles.scss";
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
         <a href="https://github.com/shivah12"><img src={GitHubIcon} alt="GitHub" /></a>
         <a href="https://www.behance.net/shreetimohapatra"><img src={BehanceIcon} alt="Behance" /></a>
         <a href="https://www.linkedin.com/in/shreeti-mohapatra-ba8715252/"><img src={LinkedInIcon} alt="LinkedIn" /></a>
+        <a href="https://twitter.com/tsundokui"><img src={TwitterIcon} alt="Twitter" /></a>
       </div>
     </section>
   );
