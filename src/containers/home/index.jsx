@@ -5,6 +5,7 @@ import GitHubIcon from "./Github.svg";
 import LinkedInIcon from "./linkedin.svg";
 import BehanceIcon from "./behance.svg";
 import TwitterIcon from "./twitter.svg";
+import Resume from "./resume.svg";
 import "./styles.scss";
 
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
         </div>
       </Animate>
       <div className="home__social-icons">
+        <a href="https://drive.google.com/drive/folders/1U_zbhk0eH3D1yGPQUp-TQR57mc2Rm2g-?usp=sharing"><img src={Resume} alt="Resume" /></a>
         <a href="https://github.com/shivah12"><img src={GitHubIcon} alt="GitHub" /></a>
         <a href="https://www.behance.net/shreetimohapatra"><img src={BehanceIcon} alt="Behance" /></a>
         <a href="https://www.linkedin.com/in/shreeti-mohapatra-ba8715252/"><img src={LinkedInIcon} alt="LinkedIn" /></a>
