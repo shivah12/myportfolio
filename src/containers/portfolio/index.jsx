@@ -14,7 +14,7 @@ import ImageNine from "../../images/image9.png";
 import ImageTen from "../../images/image10.png";
 import ImageEleven from "../../images/image11.png";
 import ImageTwelve from "../../images/image12.png";
-import ImageThirteen from "../../images/image13.png"
+import ImageFifteen from "../../images/image15.png"
 import ImageFourteen from "../../images/image14.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -65,15 +65,7 @@ const portfolioData = [
       "A Study Space website created using ReactJs using Framer motion library with being responsive on larger screens.",
     github:"https://github.com/shivah12/Shinzo",
   },
-  {
-    id: 2,
-    name: "PlantSpace",
-    image: ImageThirteen,
-    link: "https://plant-space.vercel.app/",
-    description:
-      "A Plant business website created using ReactJs with being responsive on all screens.",
-    github:"https://github.com/shivah12/PlantSpace",
-  },
+  
   {
     id: 2,
     name: "Watch",
@@ -109,6 +101,14 @@ const portfolioData = [
     link: "https://www.behance.net/gallery/194459335/Robox",
     description:
       "An website based design created using Figma, for a Robots based company.  ",
+  },
+  {
+    id: 3,
+    name: "Museum",
+    image: ImageFifteen,
+    link: "https://www.behance.net/gallery/194533829/Museum-website-design-UI-design",
+    description:
+      "An website based design created using Figma, for a Museum.  ",
   },
   {
     id: 3,
