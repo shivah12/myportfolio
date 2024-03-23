@@ -16,6 +16,7 @@ import ImageEleven from "../../images/image11.png";
 import ImageTwelve from "../../images/image12.png";
 import ImageFifteen from "../../images/image15.png"
 import ImageFourteen from "../../images/image14.png"
+import ImageSixteen from "../../images/image16.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -96,11 +97,11 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Robox ",
-    image: ImageFourteen,
-    link: "https://www.behance.net/gallery/194459335/Robox",
+    name: "Apple Airpods MAX",
+    image: ImageSixteen,
+    link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
-      "An website based design created using Figma, for a Robots based company.  ",
+      "An website based design created using Figma, for Apple Airpods MAX advertising providing a good user experience.  ",
   },
   {
     id: 3,
@@ -110,6 +111,15 @@ const portfolioData = [
     description:
       "An website based design created using Figma, for a Museum.  ",
   },
+  {
+    id: 3,
+    name: "Robox ",
+    image: ImageFourteen,
+    link: "https://www.behance.net/gallery/194459335/Robox",
+    description:
+      "An website based design created using Figma, for a Robots based company.  ",
+  },
+
   {
     id: 3,
     name: "Solaris",
