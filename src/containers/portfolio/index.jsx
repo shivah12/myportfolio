@@ -17,6 +17,7 @@ import ImageTwelve from "../../images/image12.png";
 import ImageFifteen from "../../images/image15.png"
 import ImageFourteen from "../../images/image14.png"
 import ImageSixteen from "../../images/image16.png"
+import ImageSeventeen from "../../images/image17.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -105,6 +106,14 @@ const portfolioData = [
   },
   {
     id: 3,
+    name: "Green Oasis",
+    image: ImageSeventeen,
+    link: "https://www.behance.net/gallery/194664783/Green-Oasis-Plant-Selling-Website-Design-UIUX",
+    description:
+      "An website based design created using Figma, for a Plant business company.  ",
+  },
+  {
+    id: 3,
     name: "Museum",
     image: ImageFifteen,
     link: "https://www.behance.net/gallery/194533829/Museum-website-design-UI-design",
@@ -134,7 +143,7 @@ const portfolioData = [
     image: ImageNine,
     link: "https://www.behance.net/gallery/189451451/Plant-Website",
     description:
-      "An website based design created using Figma, for a Plants-business website.  ",
+      "An one page website based design created using Figma, for a Plants-business website.  ",
   },
   {
     id: 3,
