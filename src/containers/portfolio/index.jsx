@@ -18,6 +18,7 @@ import ImageFifteen from "../../images/image15.png"
 import ImageFourteen from "../../images/image14.png"
 import ImageSixteen from "../../images/image16.png"
 import ImageSeventeen from "../../images/image17.png"
+import ImageEighteen from "../../images/image18.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -102,7 +103,7 @@ const portfolioData = [
     image: ImageSixteen,
     link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
-      "An website based design created using Figma, for Apple Airpods MAX advertising providing a good user experience.  ",
+      "A website based design created using Figma, for Apple Airpods MAX advertising providing a good user experience.  ",
   },
   {
     id: 3,
@@ -110,7 +111,15 @@ const portfolioData = [
     image: ImageSeventeen,
     link: "https://www.behance.net/gallery/194664783/Green-Oasis-Plant-Selling-Website-Design-UIUX",
     description:
-      "An website based design created using Figma, for a Plant business company.  ",
+      "A website based design created using Figma, for a Plant business company.  ",
+  },
+  {
+    id: 3,
+    name: "Movie Page",
+    image: ImageEighteen,
+    link: "https://www.behance.net/gallery/194714079/Movie-Page-Concept-UIUX-Design-WebDesign",
+    description:
+      "A website based design created using Figma, for a Movie Page Concept.  ",
   },
   {
     id: 3,
@@ -118,7 +127,7 @@ const portfolioData = [
     image: ImageFifteen,
     link: "https://www.behance.net/gallery/194533829/Museum-website-design-UI-design",
     description:
-      "An website based design created using Figma, for a Museum.  ",
+      "A website based design created using Figma, for a Museum.  ",
   },
   {
     id: 3,
@@ -126,7 +135,7 @@ const portfolioData = [
     image: ImageFourteen,
     link: "https://www.behance.net/gallery/194459335/Robox",
     description:
-      "An website based design created using Figma, for a Robots based company.  ",
+      "A website based design created using Figma, for a Robots based company.  ",
   },
 
   {
@@ -135,7 +144,7 @@ const portfolioData = [
     image: ImageEight,
     link: "https://www.behance.net/gallery/187656337/Solar-system(App-Design)",
     description:
-      "An app based design created using Figma, for a solar system enthusiast.  ",
+      "A app based design created using Figma, for a solar system enthusiast.  ",
   },
   {
     id: 3,
@@ -143,7 +152,7 @@ const portfolioData = [
     image: ImageNine,
     link: "https://www.behance.net/gallery/189451451/Plant-Website",
     description:
-      "An one page website based design created using Figma, for a Plants-business website.  ",
+      "A one page website based design created using Figma, for a Plants-business website.  ",
   },
   {
     id: 3,
@@ -151,7 +160,7 @@ const portfolioData = [
     image: ImageTen,
     link: "https://www.behance.net/gallery/187397987/Car-WebDesign-Project",
     description:
-      "An website based design created using Figma, for a Car branding.  ",
+      "A website based design created using Figma, for a Car branding.  ",
   },
   {
     id: 3,
@@ -159,7 +168,7 @@ const portfolioData = [
     image: ImageEleven,
     link: "https://www.behance.net/gallery/190049231/Travel-Landing-Page",
     description:
-      "An website based design created using Figma, for a Travel website.  ",
+      "A website based design created using Figma, for a Travel website.  ",
   },
   
 ];
