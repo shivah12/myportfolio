@@ -19,6 +19,8 @@ import ImageFourteen from "../../images/image14.png"
 import ImageSixteen from "../../images/image16.png"
 import ImageSeventeen from "../../images/image17.png"
 import ImageEighteen from "../../images/image18.png"
+import ImageNineteen from "../../images/image19.png"
+import ImageTwenty from "../../images/image20.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -120,6 +122,22 @@ const portfolioData = [
     link: "https://www.behance.net/gallery/194714079/Movie-Page-Concept-UIUX-Design-WebDesign",
     description:
       "A website based design created using Figma, for a Movie Page Concept.  ",
+  },
+  {
+    id: 3,
+    name: "Renaissance",
+    image: ImageNineteen,
+    link: "https://www.behance.net/gallery/194791743/Renaissance-Project-UIUX-Design-Web-Design",
+    description:
+      "A website based design created using Figma, for Renaissance Concept.  ",
+  },
+  {
+    id: 3,
+    name: "Japaneese Shrine ",
+    image: ImageTwenty,
+    link: "https://www.behance.net/gallery/194742399/Japan-Shrine-tourism-UIUX-Web-Design",
+    description:
+      "A website based design created using Figma, for Japanese Shrine Concept.  ",
   },
   {
     id: 3,
