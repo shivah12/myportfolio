@@ -21,6 +21,7 @@ import ImageSeventeen from "../../images/image17.png"
 import ImageEighteen from "../../images/image18.png"
 import ImageNineteen from "../../images/image19.png"
 import ImageTwenty from "../../images/image20.png"
+import ImageTwentyOne from "../../images/image21.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -114,6 +115,14 @@ const portfolioData = [
     link: "https://www.behance.net/gallery/194664783/Green-Oasis-Plant-Selling-Website-Design-UIUX",
     description:
       "A website based design created using Figma, for a Plant business company.  ",
+  },
+  {
+    id: 3,
+    name: "Metaverse VR",
+    image: ImageTwentyOne,
+    link: "https://www.behance.net/gallery/195055409/Metaverse-VR-business-UIUX-Design-Web-Design",
+    description:
+      "A website based design created using Figma, for a Metaverse VR business company.  ",
   },
   {
     id: 3,
