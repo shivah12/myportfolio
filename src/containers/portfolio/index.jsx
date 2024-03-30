@@ -102,11 +102,11 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Apple Airpods MAX",
+    name: "Airpods MAX",
     image: ImageSixteen,
     link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
-      "A website based design created using Figma, for Apple Airpods MAX advertising providing a good user experience.  ",
+      "A website based design created using Figma, for Airpods MAX providing a good user experience. ",
   },
   {
     id: 3,
@@ -142,11 +142,11 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Japaneese Shrine ",
+    name: "Shrine ",
     image: ImageTwenty,
     link: "https://www.behance.net/gallery/194742399/Japan-Shrine-tourism-UIUX-Web-Design",
     description:
-      "A website based design created using Figma, for Japanese Shrine Concept.  ",
+      "A website based design created using Figma, for Shrine Concept.  ",
   },
   {
     id: 3,
