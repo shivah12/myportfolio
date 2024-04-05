@@ -22,6 +22,7 @@ import ImageEighteen from "../../images/image18.png"
 import ImageNineteen from "../../images/image19.png"
 import ImageTwenty from "../../images/image20.png"
 import ImageTwentyOne from "../../images/image21.png"
+import ImageTwentyTwo from "../../images/image22.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -102,11 +103,19 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Airpods MAX",
+    name: "Apple Airpods MAX",
     image: ImageSixteen,
     link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
-      "A website based design created using Figma, for Airpods MAX providing a good user experience. ",
+      "A website based design created using Figma, for Apple Airpods MAX advertising providing a good user experience.  ",
+  },
+  {
+    id: 3,
+    name: "Dash",
+    image: ImageTwentyTwo,
+    link: "https://www.behance.net/gallery/195522337/Dash-Dashboard-UI-Glassmorphism-UI-UIUX-Design",
+    description:
+      "A dashboard UI for a website aiming for effective subscription management for the user using Figma prototyping.  ",
   },
   {
     id: 3,
@@ -142,11 +151,11 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Shrine ",
+    name: "Japaneese Shrine ",
     image: ImageTwenty,
     link: "https://www.behance.net/gallery/194742399/Japan-Shrine-tourism-UIUX-Web-Design",
     description:
-      "A website based design created using Figma, for Shrine Concept.  ",
+      "A website based design created using Figma, for Japanese Shrine Concept.  ",
   },
   {
     id: 3,
