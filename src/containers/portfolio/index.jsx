@@ -103,7 +103,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Apple Airpods MAX",
+    name: "Airpods MAX",
     image: ImageSixteen,
     link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
@@ -151,7 +151,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Japaneese Shrine ",
+    name: "Shrine ",
     image: ImageTwenty,
     link: "https://www.behance.net/gallery/194742399/Japan-Shrine-tourism-UIUX-Web-Design",
     description:
