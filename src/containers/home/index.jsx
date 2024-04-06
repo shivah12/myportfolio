@@ -86,7 +86,13 @@ const Home = () => {
       setTimeout(() => {
         navigate("/about");
       }, 2000);
-    } else {
+    } else if (words.includes("hi") || words.includes("Hi")||words.includes("hello")||words.includes("Hello")){
+      response = "Hello! What section of Shreeti's portfolio you want to be navigated to? ";
+      setMessages([...messages, response]);
+      setTimeout(() => {
+        navigate("/");
+      }, 2000);
+    }  else {
       response = "I'm sorry, I'm not sure how to help with that.";
     }
 
