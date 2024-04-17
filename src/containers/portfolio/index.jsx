@@ -9,7 +9,7 @@ import ImageFour from "../../images/image4.png";
 import ImageFive from "../../images/image5.png";
 import ImageSix from "../../images/image6.png";
 import ImageSeven from "../../images/image7.png";
-import ImageEight from "../../images/image8.png";
+import ImageEight from "../../images/image8.jpeg";
 import ImageNine from "../../images/image9.png";
 import ImageTen from "../../images/image10.png";
 import ImageEleven from "../../images/image11.png";
@@ -23,6 +23,7 @@ import ImageNineteen from "../../images/image19.png"
 import ImageTwenty from "../../images/image20.png"
 import ImageTwentyOne from "../../images/image21.png"
 import ImageTwentyTwo from "../../images/image22.png"
+import ImageTwentyThree from "../../images/image23.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -103,7 +104,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Airpods MAX",
+    name: "Apple Airpods MAX",
     image: ImageSixteen,
     link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
@@ -127,11 +128,27 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Metaverse VR",
-    image: ImageTwentyOne,
-    link: "https://www.behance.net/gallery/195055409/Metaverse-VR-business-UIUX-Design-Web-Design",
+    name: "Solaris",
+    image: ImageEight,
+    link: "https://www.behance.net/gallery/195977263/Solar-System-UIUX-Design-App-Design",
     description:
-      "A website based design created using Figma, for a Metaverse VR business company.  ",
+      "A app based design created using Figma, for a solar system enthusiast.  ",
+  },
+  {
+    id: 3,
+    name: "Museum",
+    image: ImageFifteen,
+    link: "https://www.behance.net/gallery/194533829/Museum-website-design-UI-design",
+    description:
+      "A website based design created using Figma, for a Museum.  ",
+  },
+  {
+    id: 3,
+    name: "MetaQuest 3",
+    image: ImageTwentyThree,
+    link: "https://www.behance.net/gallery/196443853/Meta-Quest-3-UIUX-Design-Web-Design",
+    description:
+      "A website based scroll design created using Figma, for a product called Metaquest 3 ",
   },
   {
     id: 3,
@@ -151,7 +168,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Shrine ",
+    name: "Japaneese Shrine ",
     image: ImageTwenty,
     link: "https://www.behance.net/gallery/194742399/Japan-Shrine-tourism-UIUX-Web-Design",
     description:
@@ -159,11 +176,11 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Museum",
-    image: ImageFifteen,
-    link: "https://www.behance.net/gallery/194533829/Museum-website-design-UI-design",
+    name: "Metaverse VR",
+    image: ImageTwentyOne,
+    link: "https://www.behance.net/gallery/195055409/Metaverse-VR-business-UIUX-Design-Web-Design",
     description:
-      "A website based design created using Figma, for a Museum.  ",
+      "A website based design created using Figma, for a Metaverse VR business company.  ",
   },
   {
     id: 3,
@@ -172,15 +189,6 @@ const portfolioData = [
     link: "https://www.behance.net/gallery/194459335/Robox",
     description:
       "A website based design created using Figma, for a Robots based company.  ",
-  },
-
-  {
-    id: 3,
-    name: "Solaris",
-    image: ImageEight,
-    link: "https://www.behance.net/gallery/187656337/Solar-system(App-Design)",
-    description:
-      "A app based design created using Figma, for a solar system enthusiast.  ",
   },
   {
     id: 3,
