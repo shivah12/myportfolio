@@ -93,16 +93,16 @@ const About = () => {
           >
             <div className="about__content__servicesWrapper__innerContent">
               <div>
-                <FaDev size={60} color="white" />
+                <FaDev size={60} color="red" />
               </div>
               <div>
-                <DiAndroid size={60} color="white" />
+                <DiAndroid size={60} color="green" />
               </div>
               <div>
-                <FaDatabase size={60} color="white" />
+                <FaDatabase size={60} color="rgb(91, 91, 91)" />
               </div>
               <div>
-                <DiApple size={60} color="white" />
+                <DiApple size={60} color="black" />
               </div>
             </div>
           </Animate>
