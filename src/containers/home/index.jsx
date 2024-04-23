@@ -126,7 +126,7 @@ const Home = () => {
         <a href="https://drive.google.com/drive/folders/1U_zbhk0eH3D1yGPQUp-TQR57mc2Rm2g-?usp=sharing">
           <img src={Resume} alt="Resume" />
         </a>
-        <a href="https://github.com/shivah12" onClick={handleChatbotOpen}>
+        <a href="https://github.com/shivah12" >
           <img src={GitHubIcon} alt="GitHub" />
         </a>
         <a href="https://www.behance.net/shreetimohapatra">
