@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .home {
@@ -19,7 +16,7 @@
     align-items: center; 
 
     h1 {
-      color: whitesmoke;
+      color: rgb(67, 67, 67);
       margin: 0;
       font-weight: 500;
       font-size: 4rem;
@@ -39,15 +36,17 @@
       padding: 10px 40px;
       font-size: 1.5rem;
       background: transparent;
-      color: whitesmoke;
-      border: 1.5px solid rgb(255, 255, 255);
+      color: rgb(102, 101, 101);
+      border: 1.5px solid rgb(119, 119, 119);
       border-radius: 4px;
       font-weight: 500;
 
       &:hover {
-        background: linear-gradient(to right, #3a306e, #26267960, #0d083e);
+        background: rgb(91, 91, 91);
         color: #ffffff;
+        backdrop-filter: blur(50px); 
       }
+      
     }
   }
 
@@ -66,7 +65,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #b8b8b8;
+    background-color: #d7d7d7;
     color: white;
     transition: background-color 0.3s ease;
   }
@@ -88,16 +87,16 @@
       cursor: pointer;
       padding: 15px 30px;
       font-size: 1rem;
-      background-color: #40309098;
-      color: #ffffff;
+      background-color: grayscale($color: #e2e2e2);
+      color: #484444;
       border: none;
       border-radius: 15px;
       transition: all 0.6s ease;
       left: 10%;
 
       &:hover {
-        background: linear-gradient(to right, #362685, #262367de, #140f71b3);
-        color: #ffffff;
+        background: grayscale($color: #424242);
+        color: #cecece;
         border: 1px solid rgba(245, 245, 245, 0.189);
       }
     }
@@ -152,15 +151,14 @@
     cursor: pointer;
       padding:13px 30px;
       font-size: 1rem;
-      background-color: #40309098;
-      color: #ffffff;
+      background-color: #bebebe98;
+      color: #494545;
       border: none;
       border-radius: 10px;
       transition: all 0.6s ease;
   }
   .send:hover{
-      background: linear-gradient(to right, #362685, #262367de, #140f71b3);
-      color: #ffffff;
+      background: grayscale($color: #9d9d9d);
       border: 1px solid rgba(245, 245, 245, 0.189);
   }
   .text{
