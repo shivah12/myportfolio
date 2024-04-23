@@ -60,7 +60,7 @@ const Home = () => {
         navigate("/resume");
       }, 2000);
     } else if (words.includes("portfolio") || words.includes("project") || words.includes("projects")) {
-      response = "Alright! Taking you to Shreeti's portfolio.";
+      response = "Alright! Taking you to Shreeti's projects.";
       setMessages([...messages, response]);
       setTimeout(() => {
         navigate("/portfolio");
@@ -86,13 +86,7 @@ const Home = () => {
       setTimeout(() => {
         navigate("/about");
       }, 2000);
-    } else if (words.includes("hi") || words.includes("Hi")||words.includes("hello")||words.includes("Hello")){
-      response = "Hello! What section of Shreeti's portfolio you want to be navigated to? ";
-      setMessages([...messages, response]);
-      setTimeout(() => {
-        navigate("/");
-      }, 2000);
-    }  else {
+    } else {
       response = "I'm sorry, I'm not sure how to help with that.";
     }
 
