@@ -1,6 +1,6 @@
 
 .portfolio {
-  background-color: #14112b;
+  background-color: #ffffff;
   background-attachment: scroll;
   height: auto !important;
 
@@ -12,21 +12,21 @@
       display: inline-block;
       margin: 0 auto;
       border-radius: 25px;
-      border: 1px dashed #bdbdbd;
+      border: 1px dashed #676464;
 
       li {
         font-size: 16px;
         display: inline-block;
         cursor: pointer;
         position: relative;
-        color: #8f8f8f;
+        color: #565656;
         text-transform: uppercase;
         padding: 12px 20px;
         overflow: hidden;
         transition: all 0.5s ease;
 
         &.active {
-          background: #a1a1d7a5;
+          background: #6a6a6fa5;
           color: #f6f1f1;
           font-weight: 600;
           border-radius: 30px;
@@ -46,7 +46,8 @@
         height: 366px;
         cursor: pointer;
         position: relative;
-        border-radius: 30px; 
+        border-radius: 50px; 
+        border: #5f5e5e dashed 1px;
 
         &:hover .overlay {
           opacity: 1;
@@ -77,9 +78,9 @@
           width: 100%;
           opacity: 0;
           transition: 0.5s ease;
-          background: linear-gradient(to right, #564a8f, #24246a, #0f065a);
+          background: rgb(255, 255, 255);
           border-radius: 50px;
-          border: 1px dashed rgba(4, 15, 38, 0.384);
+          border: 1px dashed rgba(19, 19, 19, 0.384);
 
           div {
             position: absolute;
@@ -89,7 +90,7 @@
             text-align: right;
 
             h1 {
-              color: #ffffff;
+              color: linear-gradient(to right, #828181, #adadb6, #c3c3c3);
               margin: 0px;
               font-size: 2.5rem;
               position: relative;
@@ -98,7 +99,7 @@
             }
 
             p {
-              color: #ffffff;
+              color: linear-gradient(to right, #5f5e5e, #adadb6, #c3c3c3);;
               margin: 0px;
               font-size: 1rem;
               position: relative;
@@ -111,9 +112,9 @@
               margin-top: 16px;
               padding: 10px 70px;
               font-size: 1.5rem;
-              background: rgb(82, 82, 138);
-              color: #fafcff;
-              border: 1.5px solid #ffffff;
+              background: rgba(205, 205, 205, 0.778);
+              color: #595656;
+              border: 1.5px solid #61616145;
               border-radius: 4px;
               font-weight: 500;
             }
@@ -124,7 +125,7 @@
           top: 5%;
           left: -18%; 
           position: absolute; 
-          color: white; 
+          color: rgb(100, 98, 98); 
         }
       }
     }
