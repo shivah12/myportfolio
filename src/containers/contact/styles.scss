@@ -2,7 +2,7 @@
 
 .contact {
     font-family: 'Montserrat';
-    background-color: #14112b;
+    background-color: #ffffff;
     height: 120vh;
    
     &__content {
@@ -13,7 +13,7 @@
         padding: 20px;
 
         &__header-text {
-            color: rgb(255, 255, 255);
+            color: rgb(126, 126, 126);
             display: inline-block;
             font-size: 22px;
             font-weight: 600;
@@ -22,7 +22,7 @@
             position: relative;
             text-transform: uppercase;
             padding: 5px 10px;
-            border-bottom: 2px solid rgb(255, 255, 255);
+            border-bottom: 2px solid rgb(121, 121, 121);
         }
 
         &__header-text::before,
@@ -31,7 +31,7 @@
             content: "";
             width: 2px;
             height: 5px;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(109, 109, 109);
             bottom: -1px;
         }
 
@@ -85,12 +85,12 @@
                         top: 50%;
                         left: 80%;
                         width: 250%;
-                        border: 2px solid rgb(255, 255, 255);
+                        border: 2px solid rgb(87, 83, 83);
                         padding: 16px 12px;
                         transition: all 0.5s ease;
                         position: relative;
                         background-color: transparent;
-                        color: rgb(255, 255, 255);
+                        color: rgb(69, 68, 68);
                         border-radius: 30px;
                     }
 
@@ -102,7 +102,7 @@
                         top: 20%;
                         left: 22%;
                         transition: all 0.2s ease;
-                        color: rgb(227, 223, 223);
+                        color: rgb(160, 160, 160);
                         font-size: 16px;
                     }
 
