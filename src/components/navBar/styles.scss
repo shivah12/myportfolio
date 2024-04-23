@@ -2,7 +2,7 @@
 
 .navbar {
   font-family:'Montserrat';
-  background-color: #14112b;
+  background-color: #ffffff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .navbar__container__logo {
-  color: #fdfdfd;
+  color: rgb(91, 91, 91);
   cursor: pointer;
 }
 
@@ -54,11 +54,11 @@
 
 .navbar__container__menu__item:hover::after {
   width: 100%;
-  background: #ffffff;
+  background: rgb(91, 91, 91);
 }
 
 .navbar__container__menu__item__links {
-  color: #ffffff;
+  color: rgb(91, 91, 91);
   text-decoration: none;
   padding: 0.5rem;
   position: relative; 
@@ -74,22 +74,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
+    width: 20%;
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: -140%;
     opacity: 1;
     transition: all 0.3s ease;
   }
 
   .navbar__container__menu.active {
-    background: #14112b;
+    background: #f0f0f0;
     left: 0px;
     opacity: 1;
   }
 
   .navbar__container__menu__item {
-    margin: 10px 0px;
+    margin: 5px 10px;
     padding: 10px 0px;
     border-bottom: 1px solid #d9d9d9;
   }
@@ -97,7 +97,7 @@
   .nav-icon {
     display: block;
     cursor: pointer;
-    color: white;
+    color: rgb(91, 91, 91);
     padding-right: 20px;
   }
 }
