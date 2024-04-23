@@ -30,7 +30,7 @@ const Resume = () => {
                 className="timeline__experience__vertical-timeline-element"
                 contentStyle={{
                   background: 'none',
-                  color : 'white',
+                  color : 'rgb(91, 91, 91)',
                   border : '1.5px solid black'
                 }}
                 date="2022 - Present"
@@ -57,7 +57,7 @@ const Resume = () => {
           <h3 className="timeline__education__header-text">Education</h3>
           <VerticalTimeline
             layout={"1-column"}
-            lineColor="white"
+            lineColor="rgb(91, 91, 91)"
           >
           {data.education.map((item, i) => (
               <VerticalTimelineElement
@@ -65,7 +65,7 @@ const Resume = () => {
                 className="timeline__experience__vertical-timeline-element"
                 contentStyle={{
                   background: 'none',
-                  color : 'white',
+                  color : 'rgb(91, 91, 91)',
                   border : '1.5px solid black'
                 }}
                 date={item.duration} // Change here
