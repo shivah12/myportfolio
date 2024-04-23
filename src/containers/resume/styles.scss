@@ -4,7 +4,7 @@
 .resume{
     font-family: 'Montserrat';
     height: auto !important;
-    background-color: #14112b;
+    background-color: #ffffff;
     overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@
 
         &__header-text{
             display: inline-block;
-            color:rgb(255, 253, 253);
+            color:rgb(91, 91, 91);
             font-size: 22px;
             font-weight: 700;
             line-height: 1rem;
@@ -30,7 +30,7 @@
             position: relative;
             text-transform: uppercase;
             padding: 5px 10px;
-            border-bottom: 2px solid rgb(255, 255, 255);
+            border-bottom: 2px solid rgb(123, 123, 123);
         }
 
         &__header-text::before , &__header-text::after{
@@ -38,7 +38,7 @@
             content: '';
             width: 2px;
             height: 5px;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(142, 137, 137);
             bottom: -1px;
         }
 
@@ -63,12 +63,12 @@
 
             h3,h4{
                 font-size: 16px;
-                color: rgb(255, 255, 255);
+                color: rgb(91, 91, 91);
             }
 
             h4{
                 margin-left: 8px;
-                color: rgb(255, 255, 255);
+                color: rgb(91, 91, 91);
             }
 
 
@@ -88,7 +88,7 @@
 
         .vertical-timeline-element-date{
             opacity: 1;
-            color:rgb(229, 229, 229);
+            color:rgb(164, 158, 158);
             font-size: 18px;
         }
     }
