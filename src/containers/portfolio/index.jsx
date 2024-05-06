@@ -31,7 +31,7 @@ import 'aos/dist/aos.css';
 const portfolioData = [
   {
     id: 2,
-    name: "Yosher",
+    name: "RigKatha",
     image: ImageTwentyFour,
     link: "https://rig-katha.vercel.app/",
     description:
