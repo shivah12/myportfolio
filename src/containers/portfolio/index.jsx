@@ -24,10 +24,20 @@ import ImageTwenty from "../../images/image20.png"
 import ImageTwentyOne from "../../images/image21.png"
 import ImageTwentyTwo from "../../images/image22.png"
 import ImageTwentyThree from "../../images/image23.png"
+import ImageTwentyFour from "../../images/image24.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const portfolioData = [
+  {
+    id: 2,
+    name: "Yosher",
+    image: ImageTwentyFour,
+    link: "https://rig-katha.vercel.app/",
+    description:
+      "A website created using ReactJs acting as a Gemini inspired design and also with functional working prompts integrating the Gemini API",
+    github: "https://github.com/shivah12/RigKatha",
+  },
   {
     id: 2,
     name: "Yosher",
