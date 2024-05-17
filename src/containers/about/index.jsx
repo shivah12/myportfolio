@@ -27,7 +27,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "I am Shreeti Mohapatra, a Front-end developer and UI/UX designer, currently a sophomore studying B.Tech in Information Technology in Veer Surendra Sai University, Burla. I tend to create functional and responsive designs to implement and enhance the outreach of my clientale. I am currently exploring Backend services while I furnish my skills in frontend designing using the required skills.";
+  "I am Shreeti Mohapatra, a MERN Stack developer and UI/UX designer, currently a sophomore studying B.Tech in Information Technology in Veer Surendra Sai University, Burla. I tend to create functional and responsive designs to implement and enhance the outreach of my clientale. I am currently exploring Backend services while I furnish my skills in frontend designing using the required skills.";
 
 const About = () => {
   return (
@@ -51,7 +51,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Front End Developer | UI/UX Designer</h3>
+            <h3>MERN Stack Developer | UI/UX Designer</h3>
             <p>{jobSummary}</p>
           </Animate>
 
