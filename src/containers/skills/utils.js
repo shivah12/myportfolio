@@ -3,7 +3,11 @@ export const skillsData = [
       label: "Development",
       data: [
         {
-          skillName: "ReactJS",
+          skillName: "Next Js",
+          
+        },
+        {
+          skillName: "React JS",
          
         },
         {
@@ -23,15 +27,15 @@ export const skillsData = [
           
         },
         {
-          skillName: "HTML",
-          
-        },
-        {
-          skillName: "Framer",
-          
-        },
-        {
           skillName: "MongoDB",
+          
+        },
+        {
+          skillName: "Node Js",
+          
+        },
+        {
+          skillName: "Express Js",
           
         },
       ],
@@ -40,7 +44,15 @@ export const skillsData = [
       label: "Programming Languages",
       data: [
         {
-          skillName: "Javascript",
+          skillName: "Type Script",
+          
+        },
+        {
+          skillName: "Java Script",
+          
+        },
+        {
+          skillName: "Java",
           
         },
         {
@@ -51,18 +63,29 @@ export const skillsData = [
           skillName: "C/C++",
           
         },
+        {
+          skillName: "HTML/CSS",
+          
+        },
       ],
     },
     {
       label: "Developer Tools",
       data: [
-        
+        {
+          skillName: "Prisma",
+         
+        },
         {
           skillName: "Git/GitHub",
          
         },
         {
           skillName: "Figma",
+         
+        },
+        {
+          skillName: "Adobe Suite",
          
         },
       ],
