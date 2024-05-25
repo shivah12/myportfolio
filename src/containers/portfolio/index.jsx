@@ -4,7 +4,7 @@ import { BsInfoCircleFill, BsGithub } from "react-icons/bs";
 import "./styles.scss"; 
 import ImageOne from "../../images/image1.png";
 import ImageTwo from "../../images/image2.png";
-import ImageThree from "../../images/image3.png";
+import ImageThree from "../../images/image3.jpeg";
 import ImageFour from "../../images/image4.png";
 import ImageFive from "../../images/image5.png";
 import ImageSix from "../../images/image6.png";
@@ -25,10 +25,29 @@ import ImageTwentyOne from "../../images/image21.png"
 import ImageTwentyTwo from "../../images/image22.png"
 import ImageTwentyThree from "../../images/image23.png"
 import ImageTwentyFour from "../../images/image24.jpeg"
+import ImageTwentyFive from "../../images/image25.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const portfolioData = [
+  {
+    id: 2,
+    name: "Chattie",
+    image: ImageTwentyFive,
+    link: "https://chattie-6xqm.onrender.com/login",
+    description:
+      "Chattie is a real-time chat application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack with Socket.io for real-time communication and also integration if JWT tokens.",
+    github: "https://github.com/shivah12/Chattie",
+  },
+  {
+    id: 2,
+    name: "MyList",
+    image: ImageThree,
+    link: "https://my-list-beta.vercel.app/",
+    description:
+      "A ToDoList application built using Next.js, integrated with Clerk for user authentication. It leverages TypeScript for type safety, Tailwind CSS for styling, and Prisma as the ORM for interacting with the database, MongoDB.",
+      github:"https://github.com/shivah12/MyList",
+  },
   {
     id: 2,
     name: "RigKatha",
@@ -49,6 +68,15 @@ const portfolioData = [
   },
   {
     id: 2,
+    name: "Shinzo",
+    image: ImageFive,
+    link: "https://shinzo-three.vercel.app/",
+    description:
+      "A Study Space website created using ReactJs using Framer motion library with being responsive on larger screens.",
+    github:"https://github.com/shivah12/Shinzo",
+  },
+  {
+    id: 2,
     name: "Tutoria",
     link: "https://tutoria-delta.vercel.app/",
     image: ImageTwo,
@@ -58,30 +86,12 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: "Compani",
-    image: ImageThree,
-    link: "https://compani-theta.vercel.app/",
-    description:
-      "A company-based created using ReactJs, TailwindCSS, AOS library and Vite with being responsive on all screens.",
-      github:"https://github.com/shivah12/Compani",
-  },
-  {
-    id: 2,
     name: "Spacer",
     image: ImageFour,
     link: "https://spacer-five.vercel.app/",
     description:
       "A Space based website created using ReactJs, TailwindCSS and AOS librarywith being responsive on all screens.",
     github:"https://github.com/shivah12/Spacer",
-  },
-  {
-    id: 2,
-    name: "Shinzo",
-    image: ImageFive,
-    link: "https://shinzo-three.vercel.app/",
-    description:
-      "A Study Space website created using ReactJs using Framer motion library with being responsive on larger screens.",
-    github:"https://github.com/shivah12/Shinzo",
   },
   
   {
@@ -114,7 +124,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Apple Airpods MAX",
+    name: "Airpods MAX",
     image: ImageSixteen,
     link: "https://www.behance.net/gallery/194599571/Apple-Airpods-MAX-website-design-UIUX-Design",
     description:
